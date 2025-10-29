@@ -47,6 +47,7 @@
 }
 
 .header-image {
+  margin-top:26px;
   justify-content: space-between;
   display: flex;
   padding: 0px 56px 0px 56px;
@@ -62,7 +63,7 @@
 }
 
 .header-image div {
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   display: flex;
   flex-direction: column;
 }
@@ -72,7 +73,9 @@
   font-size: 12px;
   font-family: light;
   color: rgb(106, 106, 106);
-  margin-top: -6px;
+  margin-top: -10px;
+  line-height: 0.625rem;
+  letter-spacing: -0.12px;
 }
 
 .header-image video {
@@ -98,8 +101,11 @@
   font-size: 12px;
   font-family: light;
   color: rgb(106, 106, 106);
-  margin-top: -6px;
+  line-height: 0.625rem;
+  letter-spacing: -0.12px;
+  margin-top: -10px;
 }
+
 
 .new-button {
   top: -6px;
@@ -121,16 +127,15 @@
 }
 
 .all-container {
-  margin-bottom: 49px;
   padding-top: 32px;
 }
 
-
+/* 
 .popular-lines {
 
   grid-template-areas: "header" "scroller" "footer";
   grid-template-columns: 375px;
-}
+} */
 
 .popular-margin {
   margin-left: 24px;
@@ -139,6 +144,9 @@
   width: 80%;
 }
 
+.popular-text{
+  margin-top:32px;
+}
 .popular-text-content {
   font-size: 18px;
   font-weight: 600;
@@ -446,12 +454,11 @@
     padding-left: 24px;
     padding-right: 24px;
     align-items: center;
-    justify-content: space-between;
     height: 80px;
     display: flex;
   }
 
-  .header-first-icon a {
+  .airbnb-top-image {
     margin-top: 4px;
     display:block;
   }
@@ -492,9 +499,8 @@
   }
 
   .home-content {
-    margin-top:11px;
+    margin-top:15px;
     justify-content: center;
-    margin-right: 5px;
     display: flex;
     align-items: center;
   }
@@ -549,7 +555,7 @@
     position:absolute;
    }
    .service-content{
-    margin-top: 8px;
+    margin-top: 10px;
     justify-content: center;
     column-gap: 8px;
     display: flex;
@@ -591,7 +597,7 @@
     column-gap: 10px;
     align-items: center;
     width:64px;
-    margin-left:-68px;
+    margin-left:-62px;
     margin-top: 12px;
   }
 
@@ -713,9 +719,8 @@
   .popular-margin{
     margin-top:-2px;
   }
-  .english-container div {
-    display: flex;
-    justify-content: space-between;
+  .airbnb-content{
+    margin-left: -10px;
   }
   .english-line img{
     margin-top:-2px;
@@ -739,14 +744,64 @@
     grid-auto-columns: calc((100% - 11px) / 5);
     display: grid;
   }
-
-  .english-container div {
-    display: flex;
-    justify-content:flex-end ;
-  }
   .airbnb-image img{
     display: block;
     width:75%;
     margin-left: 8px;
   }
+  .airbnb-top-image img{
+    display:none;
+  } 
+  .icon-container{
+    margin-left: 125px;
+  }
+  .image-box-container{
+    transform: translateX(61px);
+    margin-top:32px;
+  }
+  .last-section{
+    margin-top: -16px;
+  }
+  .button-container{
+    width: 90%;
+  }
+  .english-container section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    margin-top: 8px;
+  } 
+  .icon-container ul{
+    margin-left: 70px;
+  }
+ }
+
+@media screen and (min-width:1440px){
+  .first-margin{
+     grid-auto-columns: calc((100% - 11px) / 7);
+     display: grid;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
