@@ -941,5 +941,31 @@
     position: relative;
     left: 28px;
   }
-  
+  .service-content{
+    left: 22px;
+    position: relative;
+    top: -8px;
+  }
+  .service-text{
+    position: relative;
+    left: -2px;
+  }
+  .home-text{
+    position: relative !important;
+    left: -6px !important;
+  }
+  .icon-container{
+    top: 8px;
+    position: relative;
+    left: 93px;
+  }
+  .button-container-a{
+    width: 63%;
+    margin-left: 112px;
+    margin-top: 22px;
+  }
+  .last-section{
+    padding-right: 48px;
+    padding-left: 48px; 
+  }
 }
